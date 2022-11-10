@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Host</title>
+    <style>
+        body {
+            padding: 5%;
+            padding-top: 0.00001%;
+        }
+
+        input {
+            margin: 1%;
+            font-size:x-large;
+            border: 0.5px solid;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        h1 {
+            background-color: rgba(26, 155, 0, 0.911);
+            text-align: left;
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 250%;
+            text-decoration: overline;
+            padding-left: 4%;
+            padding: 2%;
+            margin-bottom: 0%;
+        }
+        form{
+            font-size:x-large;
+            background-color: rgba(145, 255, 0, 0.527);
+            margin-top: 0%;
+            padding: 1%;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .content{
+            width: 300%;
+            height: 300px;
+        }
+
+        #submit_btn{
+            background-color: rgba(43, 255, 0, 0.795);
+            border: 2px solid rgba(43, 255, 0, 0.795);
+            padding: 8px;
+            
+        }
+
+        #submit_btn:hover{
+            background-color: rgb(136, 255, 0);
+            border: 2px solid rgb(136, 255, 0);
+            color: black;
+            cursor:pointer;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1><u>Host your Blog</u></h1>
+    <form action="">
+       <b><i><u> Enter the following details:</u></i></b>
+        <br>
+        <br>
+        <table>
+            <tr>
+                <td>Your Name:</td>
+                <td><input type="text" placeholder="Rohit Kumar"></td>
+            </tr>
+            <tr>
+                <td>Email Address:</td>
+                <td><input type="email" name="" id="" placeholder="xyz@example.com"></td>
+            </tr>
+            <tr>
+                <td> Title of the Blog:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td style="text-align: top;">Blog Content:</td>
+                <td><input class="content" type="text"></td>
+            </tr>
+        </table>
+        <input id="submit_btn" type="button" value="Submit">
+         
+    </form>
+</body>
+
+</html>
